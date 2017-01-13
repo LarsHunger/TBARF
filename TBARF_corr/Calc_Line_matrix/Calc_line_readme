@@ -1,0 +1,5 @@
+This does the Eigenvalue decomposition of a given correlation matrix. It writes the product Eigenvector*sqrt(eigenvalue) into a file. 
+This file is then to be used by Turnung band to generate the 3D RF.
+
+Call with 3 arguments
+Calc_line linelength(int) Filename_out(string) Correlation_length(characteristic correlation length for the corr-function)
